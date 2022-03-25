@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="com.springernature.OrangeHRM_Testng_HDFC_assign">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="VerifyCustomer"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.springernature.OrangeHRM_Testng_HDFC_assign -->
+      <class name="com.springernature.OrangeHRM_Testng_Priority">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="fLogin"/>
+        </methods>
+      </class> <!-- com.springernature.OrangeHRM_Testng_Priority -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
